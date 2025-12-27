@@ -18,6 +18,7 @@ fileprivate func prevImg(name: String, ext: String) -> Image {
 }
 
 // MARK: Lock screen
+@available(iOS 26.0, macOS 26.0, watchOS 26.0, tvOS 26.0, visionOS 26.0, *)
 #Preview("Lock screen") {
     
     VStack {
@@ -46,6 +47,7 @@ fileprivate func prevImg(name: String, ext: String) -> Image {
     }
 }
 // MARK: Yellow tint, black weight
+@available(iOS 26.0, macOS 26.0, watchOS 26.0, tvOS 26.0, visionOS 26.0, *)
 #Preview("Yellow tint, black weight") {
     
     VStack {
@@ -66,6 +68,7 @@ fileprivate func prevImg(name: String, ext: String) -> Image {
 }
 
 // MARK: Interactive teal tint on droplets, rounded design, black weight
+@available(iOS 26.0, macOS 26.0, watchOS 26.0, tvOS 26.0, visionOS 26.0, *)
 #Preview("Interactive teal tint, rounded design, black weight") {
     
     VStack {
@@ -87,6 +90,7 @@ fileprivate func prevImg(name: String, ext: String) -> Image {
 }
 
 // MARK: Very big, monospace, teal tint on droplets
+@available(iOS 26.0, macOS 26.0, watchOS 26.0, tvOS 26.0, visionOS 26.0, *)
 #Preview("Interactive teal tint, rounded design, black weight") {
     
     VStack {
@@ -109,6 +113,7 @@ fileprivate func prevImg(name: String, ext: String) -> Image {
 }
 
 // MARK: Very big, weight light, serif, orange tint on history building
+@available(iOS 26.0, macOS 26.0, watchOS 26.0, tvOS 26.0, visionOS 26.0, *)
 #Preview("Very big, serif, orange tint on history building") {
     
     VStack {
@@ -144,6 +149,7 @@ fileprivate func prevImg(name: String, ext: String) -> Image {
 }
 
 // MARK: Weight/design variations, on gradient background
+@available(iOS 26.0, macOS 26.0, watchOS 26.0, tvOS 26.0, visionOS 26.0, *)
 #Preview("Weight/design variations, on gradient background") {
     ZStack {
         LinearGradient(colors: [.red, .orange, .yellow, .green, .blue, .purple], startPoint: .top, endPoint: .bottom)

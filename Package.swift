@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "LiquidGlassText",
-    platforms: [.iOS(.v26), .macOS(.v26), .macCatalyst(.v26), .tvOS(.v26), .visionOS(.v26)],
+    platforms: [.iOS(.v16), .macOS(.v13), .macCatalyst(.v16), .tvOS(.v16), .visionOS(.v1)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
